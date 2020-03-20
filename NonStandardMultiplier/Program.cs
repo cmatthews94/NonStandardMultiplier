@@ -26,25 +26,12 @@ namespace NonStandardMultiplier
             {
                 count += numbersGiven.IntHigher;
             }
-            if (numbersGiven.IntLower < 0)
-            {
-                return -count;
-            }
-            else
-            {
-                return count;
-            }
+            return numbersGiven.IntLower < 0 ? -count : count; 
+
         }
         static ValueSet SetLowerHigherInt(double a, double b)
         {
-            if (Math.Abs(a) > Math.Abs(b))
-            {
-                return new ValueSet { IntHigher = a, IntLower = b };
-            }
-            else
-            {
-                return new ValueSet { IntHigher = b, IntLower = a };
-            }
+            return Math.Abs(a) > Math.Abs(b) ? new ValueSet { IntHigher = a, IntLower = b } : new ValueSet { IntHigher = b, IntLower = a };
         }
     }
     public class ValueSet
