@@ -1,0 +1,11 @@
+C:\Github\NonStandardMultiplier\NonStandardMultiplier\bin\Debug\netcoreapp3.1\NonStandardMultiplier.exe
+C:\Github\NonStandardMultiplier\NonStandardMultiplier\bin\Debug\netcoreapp3.1\NonStandardMultiplier.deps.json
+C:\Github\NonStandardMultiplier\NonStandardMultiplier\bin\Debug\netcoreapp3.1\NonStandardMultiplier.runtimeconfig.json
+C:\Github\NonStandardMultiplier\NonStandardMultiplier\bin\Debug\netcoreapp3.1\NonStandardMultiplier.runtimeconfig.dev.json
+C:\Github\NonStandardMultiplier\NonStandardMultiplier\bin\Debug\netcoreapp3.1\NonStandardMultiplier.dll
+C:\Github\NonStandardMultiplier\NonStandardMultiplier\bin\Debug\netcoreapp3.1\NonStandardMultiplier.pdb
+C:\Github\NonStandardMultiplier\NonStandardMultiplier\obj\Debug\netcoreapp3.1\NonStandardMultiplier.csprojAssemblyReference.cache
+C:\Github\NonStandardMultiplier\NonStandardMultiplier\obj\Debug\netcoreapp3.1\NonStandardMultiplier.AssemblyInfoInputs.cache
+C:\Github\NonStandardMultiplier\NonStandardMultiplier\obj\Debug\netcoreapp3.1\NonStandardMultiplier.AssemblyInfo.cs
+C:\Github\NonStandardMultiplier\NonStandardMultiplier\obj\Debug\netcoreapp3.1\NonStandardMultiplier.dll
+C:\Github\NonStandardMultiplier\NonStandardMultiplier\obj\Debug\netcoreapp3.1\NonStandardMultiplier.pdb
