@@ -10,6 +10,7 @@ namespace NonStandardMultiplier
             Console.WriteLine(Multiply(-4, -5));
             Console.WriteLine(Multiply(4, -5));
             Console.WriteLine(Multiply(-4, 5));
+            Console.WriteLine(Multiply(-6, -5));
 
             Console.WriteLine(Multiply(4.14, 16.5));
             Console.WriteLine(Multiply(-4.14, -16.5));
@@ -20,24 +21,24 @@ namespace NonStandardMultiplier
         static double Multiply(double a, double b)
         {
             double count = 0;
-            ValueSet numbersGiven = SetLowerHigherInt(a, b);
+            NumberSet numberSet = SetLowerHigherInt(a, b);
 
-            for (int i = 0; i < Math.Abs(numbersGiven.IntLower); i++)
+            for (int i = 0; i < Math.Abs(numberSet.LowerNumber); i++)
             {
-                count += numbersGiven.IntHigher;
+                count += numberSet.HigherNumber;
             }
-            return numbersGiven.IntLower < 0 ? -count : count; 
+            return numberSet.LowerNumber < 0 ? -count : count; 
 
         }
-        static ValueSet SetLowerHigherInt(double a, double b)
+        static NumberSet SetLowerHigherInt(double a, double b)
         {
-            return Math.Abs(a) > Math.Abs(b) ? new ValueSet { IntHigher = a, IntLower = b } : new ValueSet { IntHigher = b, IntLower = a };
+            return Math.Abs(a) > Math.Abs(b) ? new NumberSet { HigherNumber = a, LowerNumber = b } : new NumberSet { HigherNumber = b, LowerNumber = a };
         }
     }
-    public class ValueSet
+    public class NumberSet
     {
-        public double IntHigher { get; set; }
-        public double IntLower { get; set; }
+        public double HigherNumber { get; set; }
+        public double LowerNumber { get; set; }
     }
 }
 
